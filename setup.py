@@ -6,7 +6,7 @@ salsa20_module = Extension('_salsa20',
                           include_dirs=['libsodium-salsa20'])
 
 setup(name='salsa20',
-      version='0.1.0',
+      version='0.2.0',
       description='Bindings for the NaCL implementation of Salsa20 and XSalsa20 by D. J. Bernstein',
       author='Filippo Valsorda',
       author_email='filippo.valsorda@gmail.com',

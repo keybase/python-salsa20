@@ -9,8 +9,10 @@ Compatible with Python 2 and 3.
 
 ```python
 def Salsa20_keystream(length, nonce, key)
-def Salsa20_encrypt(message, nonce, key)
+def Salsa20_xor(message, nonce, key)
 
 def XSalsa20_keystream(length, nonce, key)
-def XSalsa20_encrypt(message, nonce, key)
+def XSalsa20_xor(message, nonce, key)
 ```
+
+Being a stream cipher, [X]Salsa20_xor does both encryption and decryption.
