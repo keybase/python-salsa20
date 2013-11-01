@@ -21,5 +21,5 @@ setup(name='salsa20',
                    'Programming Language :: Python :: 3.3',
                    'Topic :: Security :: Cryptography',
                    'Topic :: Software Development :: Libraries'],
-      license='3-clause BSD',)
-      #long_description=open('README.md').read())
+      license='3-clause BSD',
+      long_description=open('README.md').read())
