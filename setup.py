@@ -1,3 +1,13 @@
+"""
+This file is part of Python Salsa20
+a Python bridge to the libsodium C [X]Salsa20 library
+
+Released under The BSD 3-Clause License
+Copyright (c) 2013 Keybase
+
+setup.py - build and package info
+"""
+
 from distutils.core import setup, Extension
 from glob import glob
 
@@ -6,7 +16,7 @@ salsa20_module = Extension('_salsa20',
                           include_dirs=['libsodium-salsa20'])
 
 setup(name='salsa20',
-      version='0.2.0',
+      version='0.3.0',
       description='Bindings for the NaCL implementation of Salsa20 and XSalsa20 by D. J. Bernstein',
       author='Filippo Valsorda',
       author_email='filippo.valsorda@gmail.com',
@@ -22,4 +32,4 @@ setup(name='salsa20',
                    'Topic :: Security :: Cryptography',
                    'Topic :: Software Development :: Libraries'],
       license='3-clause BSD',
-      long_description=open('README.md').read())
+      long_description=open('README.rst').read())

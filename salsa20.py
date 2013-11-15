@@ -1,3 +1,13 @@
+"""
+This file is part of Python Salsa20
+a Python bridge to the libsodium C [X]Salsa20 library
+
+Released under The BSD 3-Clause License
+Copyright (c) 2013 Keybase
+
+Python module and ctypes bindings
+"""
+
 import imp
 import sys
 

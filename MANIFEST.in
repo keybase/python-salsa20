@@ -1,0 +1,4 @@
+include libsodium-salsa20/*.h
+include README.rst
+include tox.ini
+include LICENSE
